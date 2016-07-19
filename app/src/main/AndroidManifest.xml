@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mohsin.feedbackapp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.Camera"/>
+    <uses-feature android:name="android.hardware.camera.front"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            android:screenOrientation="landscape"
+        </activity>
+        <activity android:name=".First"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.example.mohsin.feedbackapp.First" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second_activity">
+            <intent-filter>
+                <action android:name="com.example.mohsin.feedbackapp.Second_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Customer_details">
+            <intent-filter>
+                <action android:name="com.example.mohsin.feedbackapp.Customer_details" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Thankyou">
+            <intent-filter>
+                <action android:name="com.example.mohsin.feedbackapp.Thankyou" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Urdu_first"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.example.mohsin.feedbackapp.Urdu_first" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Urdu_second">
+            <intent-filter>
+                <action android:name="com.example.mohsin.feedbackapp.Urdu_second" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Urdu_details">
+            <intent-filter>
+                <action android:name="com.example.mohsin.feedbackapp.Urdu_details" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Urdu_thanks">
+            <intent-filter>
+                <action android:name="com.example.mohsin.feedbackapp.Urdu_thanks" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity">
+            <intent-filter>
+                <action android:name="com.example.mohsin.feedbackapp.Main2Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Third_activity">
+            <intent-filter>
+                <action android:name="com.example.mohsin.feedbackapp.Third_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Urdu_third">
+            <intent-filter>
+                <action android:name="com.example.mohsin.feedbackapp.Urdu_third" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
